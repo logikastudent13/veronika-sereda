@@ -1,0 +1,119 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(255, 233, 224);
+}
+h1{
+    text-align: center;
+    color:rgb(228, 134, 97);
+    background-color: rgba(218, 156, 131, 0.514);
+    border-radius: 20px;
+    display: inline-block;
+    padding: 10px;
+}
+span{
+ font-size: 30px;
+ color: #b66482;
+ background-color:#b6648250 ;
+ border-radius: 20px;
+  display: inline-block;
+    padding: 10px;
+    margin-left: 50px;
+    width: 80px;
+    margin-top: 10px;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    border: 4px solid violet;
+}
+.hero-container{
+    display: flex;
+    flex-direction: column;
+
+}
+.hero-2{
+width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    border: 4px solid rgb(97, 65, 156); 
+}
+.hero_2{
+     font-size: 30px;
+ color: #382797;
+ background-color:#35266d50 ;
+ border-radius: 20px;
+  display: inline-block;
+    padding: 10px;
+    margin-left: 50px;
+    width: 80px;
+    margin-top: 10px;
+}
+.section-hero{
+    justify-content: space-around;
+    display: flex;
+}
+p{
+    font-size: 16px;
+    color: #b66482;
+    background-color: #b664822f;
+   border-radius: 20px;
+   width: 200px;
+   padding: 15px;
+   margin: 10px;
+
+}
+.p_2_hero{
+    font-size: 16px;
+    color: #382797;
+    background-color: #3827973c;
+   border-radius: 20px;
+   width: 200px;
+   padding: 15px;
+   margin: 10px;
+}
+.hero_3{
+    font-size: 30px;
+ color: #0c4a10;
+ background-color:#0a380f50 ;
+ border-radius: 20px;
+  display: inline-block;
+    padding: 10px;
+    margin-left: 50px;
+    width: 120px;
+    margin-top: 10px;
+}
+.hero-3{
+    width: 230px;
+    height: 300px;
+    border-radius: 20px;
+    border: 4px solid #0c4a10;
+}
+.p_3_hero{
+ font-size: 16px;
+    color: #0c4a10;
+    background-color: #0a380f50;
+   border-radius: 20px;
+   width: 200px;
+   padding: 15px;
+   margin: 10px;
+}
+a{
+     text-align: left;
+   background-color: rgba(218, 156, 131, 0.514);
+   border-radius: 10px;
+   height: 20px;
+   color: rgb(228, 134, 97);
+
+    display: inline-block;
+   text-decoration: none;
+   font-family: lemon tuesday;
+   padding: 10px;
+   font-size: 20px;
+ margin-left: 20px;
+ margin-bottom: 10px;
+}
