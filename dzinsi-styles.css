@@ -1,37 +1,133 @@
-<html>
-    <head>
-        <p>Дзінсі</p>
-        <link rel="stylesheet" href="./dzinsi-styles.css">
-    </head>
-    <nav>
-         <a class="a2 nav-a1" href="maomao.html"> про мао мао </a>
-        <a class="a2 nav-a2" href="author.html"> про автора  </a>
+body {
+    font-family: sans-serif;
+    background-color: #c3a2ca;
+    padding-left: 200px;
+}
+p{
+    width: fit-content;
+    background-color: #8254a1a4;
+    margin: 0 auto;
+    border-radius: 20px;
+font-family: lemon tuesday;
+padding: 10px;
+margin-top: 10px;
+color: #491353;
+font-size: 30px;
+}
+h1{
+    background-color: #7f438979;
+    margin: 0 auto;
+    border-radius: 20px;
+font-family: lemon tuesday;
+color: #41114f;
+font-size: 20px;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+padding-right: 15px;
+}
+img{
+    width: 200px;
+height: 300px;
+border-radius: 10px;
+margin-right:15px ;
+border: 8px double #5e1e5f;
+}
+.script{
+    display: flex;
+    margin-top: 50px;
+}
+.a{
+     text-align: center;
+   background-color: #52236d60;
+   border-radius: 10px;
+   
+   color: #4b1f5cee;
+   margin: auto;
+   text-decoration: none;
+   font-family: lemon tuesday;
+   padding: 10px;
+   font-size: 20px;
+   display: flex;
+}
+.a2{
+ text-align: center;
+   background-color: #56257249;
+   border-radius: 10px;
+   
+   color: #42155f;
+   margin: auto;
+   text-decoration: none;
+   font-family: lemon tuesday;
+   padding: 10px;
+   font-size: 20px;
+   display: flex;
+   margin: 6px;
+    position: absolute;
+   left: -70px;
+   transition: 0.3s;
+}
+iframe{
+    border: #41114f double 9px;
+}
+.nav-a1{
+width: 150px;
+top: 20px;
+}
+.nav-a2{
+width: 150px;
+top: 70px;
+}
+.nav-a3{
+    width: 150px;
+    top: 120px;
+}
+.a2:hover{
+    left: 0;
+}
+nav{
+    position: fixed;
+    top: 50px;
+    left: 0;
+}
+.internet{
+    color: #491353;
+    margin-top:20px ;
+    text-align: center;
+    font-size: 30px;
+    background-color: #49135371;
+    border-radius:15px ;
+    width: 350px;
+}
+.inst{
+    width: 60px;
+    height: 60px;
+    margin-top: 20p;
+    border: 8px double #42155f;
+  
+}
+.footer-images-container{
+    display: flex;
+    margin: 20px;
 
-  <a class="a2 nav-a3" href="/"> повернутись на головну сторінку </a>
-    </nav>
-    <body>
-        <article class="script">
-        <img src="https://i.pinimg.com/736x/95/45/5e/95455e519c7edb0e2089edd3951f3e50.jpg">
-        <div>
-        <h1>18-річний чарівний і привабливий Дзінсі спочатку представлений євнухом у гаремі, але пізніше у розмові з помічником він згадує, що одним із його завдань є перевірка вірності наложниць імператору. Чоловік швидко залучає Мао Мао до палацових інтриг і користується її знаннями, але в результаті починає проявляти до дівчини симпатію і дещо бентежиться її байдужістю до нього.</h1>
-        </div>
-      
-        </article> 
-        <section>
-            <h4 class="h4_2">Відео</h4>
-           <iframe class="video" width="200" height="100" src="https://www.youtube.com/embed/BZekyagLmnA" title="Монолог Фармацевта — Шедевр NO не для тебя" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-             <iframe class="video" width="200" height="100" src="https://www.youtube.com/embed/2im_9A58aEI" title="Монолог Фармацевта за 30 Минут | Аниме | Selen" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-             <iframe class="video" width="200" height="100" src="https://www.youtube.com/embed/Gc0U3pj809o" title="Маомао и Дзинси 😊 | Смешные моменты" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-           </section>
-
-    <footer>
-            <h5 class="internet"> Мої соц. мережі</h5>
-            <div class="footer-images-container">
-            <img class="inst" src="https://img01.rl0.ru/afisha/e1200x1200i/daily.afisha.ru/uploads/images/3/32/332c88058880029deaeee9c3e53292d8.png">
-            <img class="inst" src="https://p16-tiktokcdn-com.akamaized.net/obj/tiktok-obj/74f157be535b4c52899c9469e150af1c.png">
-            <img class="inst" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1200px-Telegram_logo.svg.png">
-            </div>
-          
-             </footer>
-     </body>        
-</html>
+    margin-top: 20px;
+    text-align: center;
+   
+}
+h4{
+    color: #41114f;
+    background-color: #7b566f80;
+    margin: 0 auto;
+    border-radius: 20px;
+font-family: lemon tuesday;
+margin-top: 20px;
+font-size: 30px;
+width: fit-content;
+padding: 10px;
+margin-top: 10px;
+}
+.video{
+    margin-right: 50px;
+    border: #531b42 double 9px;
+     margin: 20px;
+}
